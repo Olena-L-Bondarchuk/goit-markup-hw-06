@@ -629,6 +629,11 @@ img {
 }
 
 /* Subscription */
+
+.subscription-form {
+  margin-left: auto;
+}
+
 .subscription-area {
   display: flex;
   gap: 12px;

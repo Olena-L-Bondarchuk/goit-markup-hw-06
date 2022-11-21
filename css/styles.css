@@ -600,12 +600,13 @@ img {
   color: var(--accent-color);
 }
 
+/* Join */
 .join-list {
   display: flex;
   gap: 10px;
 }
 
-.join {
+.footer-text {
   font-weight: 700;
   font-size: calc(16 / 14);
   text-transform: uppercase;
@@ -625,6 +626,34 @@ img {
   transition: color, background-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
+}
+
+/* Subscription */
+.subscription-area {
+  display: flex;
+  gap: 12px;
+}
+
+.subscription-field {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.subscription-field::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
 }
 
 /* Modal window */
